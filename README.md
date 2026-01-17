@@ -136,11 +136,11 @@ pip install docopt
 
 
 ### Dataset
-For each dataset, we randomly pick 80% contracts as the training set while the remainings are utilized for the testing set. 
-In the comparison, metrics accuracy, recall, precision, and F1 score are all involved. In consideration of the distinct features of different platforms, 
-experiments for reentrancy and timestamp dependence vulnerability are conducted on ESC (Ethereum smart contract) dataset.
+For each dataset, we randomly pick 80% contracts as the training set, while the remaining are utilized for the testing set. 
+In the comparison, metrics such as accuracy, recall, precision, and F1 score are all involved. In consideration of the distinct features of different platforms, 
+Experiments for reentrancy and timestamp dependence vulnerability are conducted on the ESC (Ethereum smart contract) dataset.
 
-For original dataset, please turn to the dataset [repo](https://github.com/Messi-Q/Smart-Contract-Dataset).
+For the original dataset, please turn to the dataset [repo](https://github.com/Messi-Q/Smart-Contract-Dataset).
 
 ### Code Files
 The tools for extracting graph features (vectors) are as follows:
