@@ -14,7 +14,7 @@ binary vulnerability prediction (sigmoid classifier). Unlike uniform pooling, th
 to security-sensitive nodes (e.g., `call.value`, `block.timestamp`), producing more discriminative representations.
 
 <p align="center">
-  <img src="figures/overview.png" width="900" />
+  <img src="figures/figure1.png" width="900" />
 </p>
 
 ---
