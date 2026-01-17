@@ -114,7 +114,11 @@ All of the smart contract source code, graph data, and training data are organiz
 - `train_data/timestamp/train.json`: This file contains the training data for timestamp dependency detection.
 - `train_data/timestamp/valid.json`: This file contains the testing/validation data for timestamp dependency detection.
 
+For each dataset, we randomly pick 80% contracts as the training set, while the remaining are utilized for the testing set. 
+In the comparison, metrics such as accuracy, recall, precision, and F1 score are all involved. In consideration of the distinct features of different platforms, 
+Experiments for reentrancy and timestamp dependence vulnerability are conducted on the ESC (Ethereum smart contract) dataset.
 
+For the original dataset, please turn to the dataset [repo](https://github.com/Messi-Q/Smart-Contract-Dataset).
 
 
 ## Requirements
@@ -135,12 +139,7 @@ pip install scikit-learn==0.20.2
 pip install docopt
 ```
 
-### Dataset
-For each dataset, we randomly pick 80% contracts as the training set, while the remaining are utilized for the testing set. 
-In the comparison, metrics such as accuracy, recall, precision, and F1 score are all involved. In consideration of the distinct features of different platforms, 
-Experiments for reentrancy and timestamp dependence vulnerability are conducted on the ESC (Ethereum smart contract) dataset.
 
-For the original dataset, please turn to the dataset [repo](https://github.com/Messi-Q/Smart-Contract-Dataset).
 
 ### Code Files
 The tools for extracting graph features (vectors) are as follows:
