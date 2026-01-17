@@ -10,7 +10,7 @@ smart contract vulnerabilities (e.g., **reentrancy** and **timestamp dependency*
 ## Overview
 
 T-MGA represents a smart contract function as a **temporal execution graph** and learns a graph-level embedding for
-binary vulnerability prediction (sigmoid classifier). Unlike uniform pooling, the MGA readout assigns higher weights
+binary vulnerability prediction (sigmoid classifier). Instead of  uniform pooling, the MGA readout assigns higher weights
 to security-sensitive nodes (e.g., `call.value`, `block.timestamp`), producing more discriminative representations.
 
 <p align="center">
