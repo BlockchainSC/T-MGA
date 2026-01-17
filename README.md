@@ -2,7 +2,7 @@
 
 This repository provides the implementation of **T-MGA**, a temporal graph neural network framework for detecting
 smart contract vulnerabilities (e.g., **reentrancy** and **timestamp dependency**) by combining:
-- **Temporal Message Propagation (TMP)** to model execution-aware dependencies, and
+- **Temporal Message Propagation (TMP)** to model execution-aware dependencies.
 - **Multi-Head Global Attention (MGA)** readout to emphasize security-critical nodes and execution paths.
 
 
