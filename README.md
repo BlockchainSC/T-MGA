@@ -31,7 +31,7 @@ to security-sensitive nodes (e.g., `call.value`, `block.timestamp`), producing m
 - **Reproducible pipeline:** Training, validation, metric reporting (Accuracy/Precision/Recall/F1/AUC), and curve plotting are supported.
 - **JSON-based datasets:** Training/validation data are stored and loaded from JSON files.
 
-```
+
 
 ## Repository Structure
 
