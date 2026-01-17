@@ -18,6 +18,11 @@ to security-sensitive nodes (e.g., `call.value`, `block.timestamp`), producing m
 </p>
 
 ---
+<p align="center">
+  <img src="figures/figure2.png" width="900" />
+</p>
+
+---
 
 ## Highlights
 
