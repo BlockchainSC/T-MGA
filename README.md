@@ -192,6 +192,7 @@ Data were stored in JSON and split 80/20 for training/validation.
 
 ## Run Command
 Train and evaluate the model:
+
 ```bash
 python TMGAModel.py --random_seed 9930 --thresholds 0.45
 
