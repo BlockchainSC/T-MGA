@@ -66,7 +66,7 @@ TMGA/
 
 
 #### Dataset structure in this project
-All of the smart contract source code, graph data, and training data in these folders in the following structure respectively.
+All of the smart contract source code, graph data, and training data are organized in the following folders, structured as follows.
 
 TMGA/
 ├── data/
