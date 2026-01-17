@@ -108,13 +108,13 @@ All of the smart contract source code, graph data, and training data are organiz
 
 - `data/timestamp/source_code`: This folder contains the source code of smart contracts.
 - `data/timestamp/graph_data`: This folder contains the graph structure of smart contracts (nodes and edges) extracted by our tool.
-- `data/timestamp/graph_data/edge`: It includes all edges of each timestamp contract graph.
-- `data/timestamp/graph_data/node`: It includes all nodes of each timestamp contract graph.
+- `data/timestamp/graph_data/edge`: It includes all edges.
+- `data/timestamp/graph_data/node`: It includes all nodes.
 - `features/timestamp`: It includes all timestamp dependency features of each smart contract extracted by our model.
 - `train_data/timestamp/train.json`: This file contains the training data for timestamp dependency detection.
 - `train_data/timestamp/valid.json`: This file contains the testing/validation data for timestamp dependency detection.
 
-For each dataset, we randomly pick 80% contracts as the training set, while the remaining are utilized for the testing set. 
+For each dataset, we randomly select 80% of the contracts as the training set, while the remaining contracts are used for the validation set. 
 In the comparison, metrics such as accuracy, recall, precision, and F1 score are all involved. In consideration of the distinct features of different platforms, 
 Experiments for reentrancy and timestamp dependence vulnerability are conducted on the ESC (Ethereum smart contract) dataset.
 
