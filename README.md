@@ -95,22 +95,25 @@ TMGA/
       
 
 ## Reentrancy
-* `data/reentrancy/source_code`: This folder contains the source code of smart contracts.
-* `data/reentrancy/graph_data`: This folder contains the graph structure of smart contracts (nodes and edges) extracted by our AutoExtractGraph.
-* `data/reentrancy/graph_data/edge`: It includes all edges of each reentrancy contract graph.
-* `data/reentrancy/graph_data/node`: It includes all nodes of each reentrancy contract graph.
-* `features/reentrancy`: It includes all reentrancy features of each smart contract extracted by our model.
-* `train_data/reentrancy/train.json`: This file contains the training data for reentrancy detection.
-* `train_data/reentrancy/valid.json`: This file contains the testing data for reentrancy detection.
+
+- `data/reentrancy/source_code`: This folder contains the source code of smart contracts.
+- `data/reentrancy/graph_data`: This folder contains the graph structure of smart contracts (nodes and edges) extracted by our tool.
+- `data/reentrancy/graph_data/edge`: It includes all edges of each reentrancy contract graph.
+- `data/reentrancy/graph_data/node`: It includes all nodes of each reentrancy contract graph.
+- `features/reentrancy`: It includes all reentrancy features of each smart contract extracted by our model.
+- `train_data/reentrancy/train.json`: This file contains the training data for reentrancy detection.
+- `train_data/reentrancy/valid.json`: This file contains the testing/validation data for reentrancy detection.
 
 ## Timestamp Dependency
-* `data/timestamp/source_code`: This folder contains the source code of smart contracts.
-* `data/timestamp/graph_data`: This folder contains the graph structure of smart contracts (nodes and edges) extracted by our AutoExtractGraph.
-* `data/timestamp/graph_data/edge`: It includes all edges of each timestamp contract graph.
-* `data/timestamp/graph_data/node`: It includes all nodes of each timestamp contract graph.
-* `features/timestamp`: It includes all timestamp dependency features of each smart contract extracted by our model.
-* `train_data/timestamp/train.json`: This file contains the training data for timestamp dependency detection.
-* `train_data/timestamp/valid.json`: This file contains the testing data for timestamp dependency detection.
+
+- `data/timestamp/source_code`: This folder contains the source code of smart contracts.
+- `data/timestamp/graph_data`: This folder contains the graph structure of smart contracts (nodes and edges) extracted by our tool.
+- `data/timestamp/graph_data/edge`: It includes all edges of each timestamp contract graph.
+- `data/timestamp/graph_data/node`: It includes all nodes of each timestamp contract graph.
+- `features/timestamp`: It includes all timestamp dependency features of each smart contract extracted by our model.
+- `train_data/timestamp/train.json`: This file contains the training data for timestamp dependency detection.
+- `train_data/timestamp/valid.json`: This file contains the testing/validation data for timestamp dependency detection.
+
 
 
 
