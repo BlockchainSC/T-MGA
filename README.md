@@ -98,8 +98,8 @@ All of the smart contract source code, graph data, and training data are organiz
 
 - `data/reentrancy/source_code`: This folder contains the source code of smart contracts.
 - `data/reentrancy/graph_data`: This folder contains the graph structure of smart contracts (nodes and edges) extracted by our tool.
-- `data/reentrancy/graph_data/edge`: It includes all edges of each reentrancy contract graph.
-- `data/reentrancy/graph_data/node`: It includes all nodes of each reentrancy contract graph.
+- `data/reentrancy/graph_data/edge`: It includes all edges.
+- `data/reentrancy/graph_data/node`: It includes all nodes.
 - `features/reentrancy`: It includes all reentrancy features of each smart contract extracted by our model.
 - `train_data/reentrancy/train.json`: This file contains the training data for reentrancy detection.
 - `train_data/reentrancy/valid.json`: This file contains the testing/validation data for reentrancy detection.
