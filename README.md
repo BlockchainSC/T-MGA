@@ -37,7 +37,7 @@ to security-sensitive nodes (e.g., `call.value`, `block.timestamp`), producing m
 
 A typical layout is:
 
-```text
+```markdown
 TMGA/
 ├─ train_data/		#dataset for training and validation
 │  ├─ reentrancy/
