@@ -31,7 +31,7 @@ to security-sensitive nodes (e.g., `call.value`, `block.timestamp`), producing m
 - **Reproducible pipeline:** Training, validation, metric reporting (Accuracy/Precision/Recall/F1/AUC), and curve plotting are supported.
 - **JSON-based datasets:** Training/validation data are stored and loaded from JSON files.
 
----
+```
 
 ## Repository Structure
 
@@ -91,8 +91,8 @@ TMGA/
 │   └── timestamp/
 │       ├── train.json         # Training samples for timestamp dependency
 │       └── valid.json         # Validation samples for timestamp dependency
-```
 
+```
 ## Reentrancy
 
 - `data/reentrancy/source_code`: This folder contains the source code of smart contracts.
