@@ -64,7 +64,7 @@ TMGA/
 ├─ utils.py
 └─ README.md
 
-
+```
 #### Dataset structure in this project
 All of the smart contract source code, graph data, and training data are organized in the following folders, structured as follows.
 
