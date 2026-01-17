@@ -91,8 +91,7 @@ TMGA/
 │   └── timestamp/
 │       ├── train.json         # Training samples for timestamp dependency
 │       └── valid.json         # Validation samples for timestamp dependency
----
-      
+```
 
 ## Reentrancy
 
