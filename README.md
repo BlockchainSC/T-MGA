@@ -115,8 +115,10 @@ All of the smart contract source code, graph data, and training data are organiz
 - `train_data/timestamp/valid.json`: This file contains the testing/validation data for timestamp dependency detection.
 
 For each dataset, we randomly select 80% of the contracts as the training set, while the remaining contracts are used for the validation set. 
-In the comparison, metrics such as accuracy, recall, precision, and F1 score are all involved. In consideration of the distinct features of different platforms, 
-Experiments for reentrancy and timestamp dependence vulnerability are conducted on the ESC (Ethereum smart contract) dataset.
+In the comparison, metrics such as accuracy, recall, precision, and F1 score are used. 
+Considering the distinct features of different platforms, experiments for reentrancy and timestamp dependency vulnerabilities are conducted on the ESC (Ethereum smart contract) dataset.
+
+
 
 For the original dataset, please turn to the dataset [repo](https://github.com/Messi-Q/Smart-Contract-Dataset).
 
