@@ -10,7 +10,7 @@ smart contract vulnerabilities (e.g., **reentrancy** and **timestamp dependency*
 ## Overview
 
 T-MGA represents a smart contract function as a **temporal execution graph** and learns a graph-level embedding for
-binary vulnerability prediction (sigmoid classifier). Instead of  uniform pooling, the MGA readout assigns higher weights
+binary vulnerability prediction using a sigmoid classifier. Instead of uniform pooling, the MGA readout assigns higher weights
 to security-sensitive nodes (e.g., `call.value`, `block.timestamp`), producing more discriminative representations.
 
 <p align="center">
@@ -27,7 +27,7 @@ to security-sensitive nodes (e.g., `call.value`, `block.timestamp`), producing m
 ## Highlights
 
 - **Execution-aware modeling:** TMP updates node states following the temporal order of program interactions.
-- **Attention-based readout:** Multi-head global query attention prioritizes security-critical nodes instead of treating all nodes equally.
+- **Attention-based readout:** Multi-Head Global Query Attention prioritizes security-critical nodes instead of treating all nodes equally.
 - **Reproducible pipeline:** Training, validation, metric reporting (Accuracy/Precision/Recall/F1/AUC), and curve plotting are supported.
 - **JSON-based datasets:** Training/validation data are stored and loaded from JSON files.
 
