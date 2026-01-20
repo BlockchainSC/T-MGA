@@ -1,4 +1,4 @@
-# T-MGA: Temporal Message Propagation with Multi-Head Global Attention for Smart Contract Vulnerability Detection
+# T-MGA:Temporal GNNs with Global Attention for Smart Contract Vulnerability Detection
 
 This repository provides the implementation of **T-MGA**, a temporal graph neural network framework for detecting
 smart contract vulnerabilities (e.g., **reentrancy** and **timestamp dependency**) by combining:
