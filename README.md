@@ -213,11 +213,11 @@ If you use T-MGA or the resources provided in this repository in your research, 
 
 ### IEEE Citation
 
-> S. I. H. Shah, Y. A. Ergu, P.-C. Lin and V.-L. Nguyen,  
-> "T-MGA: Temporal GNNs with Global Attention for Smart Contract Vulnerability Detection,"  
-> *2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)*,  
-> Brisbane, Australia, 2026, pp. 1-9,  
-> doi: 10.1109/ICBC67748.2026.11575518.
+ S. I. H. Shah, Y. A. Ergu, P.-C. Lin and V.-L. Nguyen,  
+ "T-MGA: Temporal GNNs with Global Attention for Smart Contract Vulnerability Detection,"  
+ *2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)*,  
+ Brisbane, Australia, 2026, pp. 1-9,  
+ doi: 10.1109/ICBC67748.2026.11575518.
 
 ### BibTeX
 
