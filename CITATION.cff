@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use T-MGA in your research, please cite our IEEE ICBC 2026 paper."
+
+title: "T-MGA: Temporal GNNs with Global Attention for Smart Contract Vulnerability Detection"
+
+type: software
+
+authors:
+  - family-names: "Shah"
+    given-names: "Syed Imran Hussain"
+
+  - family-names: "Ergu"
+    given-names: "Yared Abera"
+
+  - family-names: "Lin"
+    given-names: "Po-Ching"
+
+  - family-names: "Nguyen"
+    given-names: "Van-Linh"
+
+repository-code: "https://github.com/BlockchainSC/T-MGA"
+
+preferred-citation:
+  type: conference-paper
+
+  authors:
+    - family-names: "Shah"
+      given-names: "Syed Imran Hussain"
+
+    - family-names: "Ergu"
+      given-names: "Yared Abera"
+
+    - family-names: "Lin"
+      given-names: "Po-Ching"
+
+    - family-names: "Nguyen"
+      given-names: "Van-Linh"
+
+  title: "T-MGA: Temporal GNNs with Global Attention for Smart Contract Vulnerability Detection"
+
+  collection-title: "2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)"
+
+  collection-type: proceedings
+
+  year: 2026
+
+  start: 1
+  end: 9
+
+  doi: "10.1109/ICBC67748.2026.11575518"
+
+  publisher:
+    name: "IEEE"
