@@ -1,5 +1,6 @@
 cff-version: 1.2.0
-message: "If you use T-MGA in your research, please cite our IEEE ICBC 2026 paper."
+
+message: "If you use T-MGA or the resources provided in this repository in your research, please cite our IEEE ICBC 2026 paper."
 
 title: "T-MGA: Temporal GNNs with Global Attention for Smart Contract Vulnerability Detection"
 
@@ -19,6 +20,8 @@ authors:
     given-names: "Van-Linh"
 
 repository-code: "https://github.com/BlockchainSC/T-MGA"
+
+url: "https://ieeexplore.ieee.org/abstract/document/11575518"
 
 preferred-citation:
   type: conference-paper
@@ -40,14 +43,20 @@ preferred-citation:
 
   collection-title: "2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)"
 
-  collection-type: proceedings
+  conference:
+    name: "2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)"
+
+  location:
+    name: "Brisbane, Australia"
 
   year: 2026
 
   start: 1
   end: 9
 
-  doi: "10.1109/ICBC67748.2026.11575518"
-
   publisher:
     name: "IEEE"
+
+  doi: "10.1109/ICBC67748.2026.11575518"
+
+  url: "https://ieeexplore.ieee.org/abstract/document/11575518"
