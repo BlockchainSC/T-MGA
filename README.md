@@ -233,12 +233,3 @@ If you use T-MGA or the resources provided in this repository in your research, 
   keywords={Modeling;Smart contracts;Signal detection;Equations;Printing;Contracts;Head;Security;Accuracy;Propagation;Smart Contract Vulnerability;Graph neural networks;Multi-Head Global Attention;Temporal Message Propagation;Vulnerability detection},
   doi={10.1109/ICBC67748.2026.11575518}
 }
-
-
-
-
-
-
-
-
-
