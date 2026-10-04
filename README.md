@@ -192,37 +192,48 @@ Data were stored in JSON and split 80/20 for training/validation.
 
 
 ## Run Command
+
 Train and evaluate the model:
 
 ```bash
 python TMGAModel.py --random_seed 9930 --thresholds 0.45
+```
 
 ## Citation
 
-If you use T-MGA or the resources provided in this repository in your research,
-please cite our paper:
+If you use T-MGA or the resources provided in this repository in your research, please cite our paper:
 
-> Syed Imran Hussain Shah, Yared Abera Ergu, Po-Ching Lin, and Van-Linh Nguyen,
-> "T-MGA: Temporal GNNs with Global Attention for Smart Contract Vulnerability Detection,"
-> 2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC),
-> pp. 1–9, 2026.
-> doi: 10.1109/ICBC67748.2026.11575518
+### Paper
+
+**T-MGA: Temporal GNNs with Global Attention for Smart Contract Vulnerability Detection**
+
+[View the paper on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11575518)
+
+**DOI:** [10.1109/ICBC67748.2026.11575518](https://doi.org/10.1109/ICBC67748.2026.11575518)
+
+### IEEE Citation
+
+> S. I. H. Shah, Y. A. Ergu, P.-C. Lin and V.-L. Nguyen,  
+> "T-MGA: Temporal GNNs with Global Attention for Smart Contract Vulnerability Detection,"  
+> *2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)*,  
+> Brisbane, Australia, 2026, pp. 1-9,  
+> doi: 10.1109/ICBC67748.2026.11575518.
 
 ### BibTeX
 
 ```bibtex
-@inproceedings{shah2026tmga,
-  author    = {Syed Imran Hussain Shah and
-               Yared Abera Ergu and
-               Po-Ching Lin and
-               Van-Linh Nguyen},
-  title     = {T-MGA: Temporal GNNs with Global Attention for Smart Contract Vulnerability Detection},
-  booktitle = {2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)},
-  pages     = {1--9},
-  year      = {2026},
-  publisher = {IEEE},
-  doi       = {10.1109/ICBC67748.2026.11575518}
+@INPROCEEDINGS{11575518,
+  author={Shah, Syed Imran Hussain and Ergu, Yared Abera and Lin, Po-Ching and Nguyen, Van-Linh},
+  booktitle={2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)},
+  title={T-MGA: Temporal GNNs with Global Attention for Smart Contract Vulnerability Detection},
+  year={2026},
+  volume={},
+  number={},
+  pages={1-9},
+  keywords={Modeling;Smart contracts;Signal detection;Equations;Printing;Contracts;Head;Security;Accuracy;Propagation;Smart Contract Vulnerability;Graph neural networks;Multi-Head Global Attention;Temporal Message Propagation;Vulnerability detection},
+  doi={10.1109/ICBC67748.2026.11575518}
 }
+
 
 
 
